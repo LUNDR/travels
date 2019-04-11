@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Travels</title>
+    <title><%=yield(:page_title)%> | Travels</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,8 @@
   </head>
 
   <body>
+    <%= render 'layouts/navbar' %>
+    <div class="container <%= controller_name %> <%= action_name %>">
     <%= yield %>
   </body>
 </html>
