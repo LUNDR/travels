@@ -1,0 +1,39 @@
+body{
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #b38b6d;
+}
+
+h2, h3, h4, h5, h6{
+  font-family: 'Source Serif Pro', serif;
+  color: black;
+}
+
+p, p span {
+  font-family: 'Source Serif Pro', serif;
+
+}
+
+.tags a {
+  font-family: 'Roboto', sans-serif;
+  color: #b38b6d;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 11px;
+  background-color: white;
+  padding: 0px;
+  border-radius: 20%;
+  margin-bottom: 0px
+
+}
+
+.card-title a{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #563f2d;
+
+}
