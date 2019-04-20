@@ -1,13 +1,21 @@
 <% provide(:page_title, 'All posts') %>
 <% provide(:blog_active, 'active') %>
 
-<div class="row">
-  <% @posts.each do |post| %>
-  <%= render post %>
 
-  <% end %>
-</div>
 
-<div class='pagination'>
-<%= will_paginate @posts %>
-</div>
+<!-- Full Page Image Header with Vertically Centered Content -->
+  <div class="jumbotron">
+  <h1> Bootstraps and Backpacks </h1>
+  <h3> Travels through the global economy </h3>
+     </div>
+  <div class="row">
+    <% @posts.each do |post| %>
+    <%= render post %>
+
+    <% end %>
+  </div>
+
+  <div class='pagination'>
+  <%= will_paginate @posts %>
+  </div>
+</body>

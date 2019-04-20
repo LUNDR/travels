@@ -2,26 +2,78 @@ body{
   background-color: white;
 }
 
+
+
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lora', serif;
   font-weight: bold;
-  color: #b38b6d;
+  color: white;
+  font-size: 3.5rem;
+
+
 }
 
-h2, h3, h4, h5, h6{
-  font-family: 'Source Serif Pro', serif;
+h2{
+    font-family: 'Lora', serif;;
+    color: black;
+    font-size: 2.0rem;
+    font-weight: bold
+
+}
+
+h3{
+    font-family: 'Lora', serif;
+
+  color: white;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+h4{
+    font-family: 'Lora', serif;
+    color:black;
+    font-style: normal;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align:center;
+
+
+}
+
+h5{
+    font-family: 'Lora', serif;
+    color:#C0C0C0;
+    font-style: italic;
+    font-size: 1.0rem;
+    font-weight: 500;
+    text-align:center;
+    margin-bottom:10%;
+
+}
+
+
+
+ h6{
+  font-family: 'Lora', serif;
   color: black;
 }
 
-p, p span {
-  font-family: 'Source Serif Pro', serif;
+p{
+  font-family: 'Lora', serif;
+
+}
+ p span {
+  font-family: 'Lora', serif;
+  background-color: #f4f4f4;
+  margin-left: 15px;
+  margin-right: 15px;
 
 }
 
 .tags a {
-  font-family: 'Roboto', sans-serif;
-  color: #b38b6d;
-  font-weight: 400;
+  font-family: 'Signika', sans-serif;
+  color: #000080;
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 11px;
   background-color: white;
@@ -32,8 +84,25 @@ p, p span {
 }
 
 .card-title a{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  color: #563f2d;
+  font-family: 'Lora', serif;
+  font-weight: 550;
+  color: black;
 
+}
+.container.posts.index{
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding:0px;
+  margin-right:0;
+  max-width: 100%;
+}
+
+.container.posts.show{
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding:0px;
+  margin-right:0;
+  max-width: 100%;
 }

@@ -16,10 +16,14 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
 document.addEventListener("turbolinks:load", function() {
 tinymce.remove();
 tinymce.init({ selector:'textarea#post_body',
   height: 500,
-  plugins: "codesample image media link code",
-  toolbar: "undo redo | stylesheet | bold italic link |codesample image media code" });
+  plugins: "codesample image media link code lists advlist table",
+
+  toolbar: "undo redo | stylesheet | bold italic link |codesample image media code lists | table ",
+  table_toolbar: "tableprops tabledelete | tableinsertrowbefore tableinsertrowafter tabledeleterow | tableinsertcolbefore tableinsertcolafter tabledeletecol"
+  });
 })
