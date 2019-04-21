@@ -29,10 +29,12 @@
 <nav class="navbar navbar-light bg-faded">
   <div class='container'>
     <a class='navbar-brand  col-md-8 col-lg-8 ' href='/'>
-    <h5>   <%=image_tag('world.png', size:'40x40' ) %> Bootstraps & Backpacks </h5>
+      <h5><%=image_tag('world.png', size:'40x40' ) %> Bootstraps & Backpacks </h5>
 
-          </a>
-
+    </a>
+      <button class="navbar-toggler hidden-sm-up pull-xs-right" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+          &#9776;
+      </button>
     <ul class="nav navbar-nav pull-sm-right hidden-xs-down ">
       <li class="nav-item">
         <%= link_to 'Blog', root_path, class: "nav-link #{yield(:blog_active)}" %>
