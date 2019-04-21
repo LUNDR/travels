@@ -14,7 +14,7 @@ h1 {
 }
 
 h2{
-    font-family: 'Lora', serif;;
+    font-family: 'Signika', sans-serif;
     color: black;
     font-size: 2.0rem;
     font-weight: bold
@@ -30,7 +30,7 @@ h3{
 }
 
 h4{
-    font-family: 'Lora', serif;
+    font-family: 'Signika', sans-serif;
     color:black;
     font-style: normal;
     font-size: 1.3rem;
@@ -41,7 +41,7 @@ h4{
 }
 
 h5{
-    font-family: 'Lora', serif;
+    font-family: 'Signika', sans-serif;
     color:#C0C0C0;
     font-style: italic;
     font-size: 1.0rem;
@@ -54,7 +54,7 @@ h5{
 
 
  h6{
-  font-family: 'Lora', serif;
+  font-family: 'Signika', sans-serif;
   color: black;
 }
 
@@ -84,7 +84,7 @@ p{
 }
 
 .card-title a{
-  font-family: 'Lora', serif;
+  font-family: 'Signika', sans-serif;
   font-weight: 550;
   color: black;
 
@@ -105,4 +105,8 @@ p{
   padding:0px;
   margin-right:0;
   max-width: 100%;
+}
+.container{
+  padding: 0;
+  margin:0;
 }

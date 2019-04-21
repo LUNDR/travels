@@ -3,28 +3,31 @@
 
 
     <div class="row">
-      <div class="col-md-4">
-        </div>
-      <div class='col-md-6 offset-md-6 col-lg-4 offset-lg-8'>
+      <div class="col-xs-0 col-sm-0 col-md-1 col-lg-2 col-xl-3">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8 col-xl-6">
           <div class="singleblog">
-
             <h2><%=@post.title %></h2>
             <p><%= @post.display_day_published %> </p>
-
-
-            
-
-            </div>
-        </div>
-
-      <div class="col-md-4">
+            <div class="jumbotron2" style="background-image: url(<%= @post.banner_image_url %>)" ></div>
+          </div>
+      </div>
+      <div class="col-xs-0 col-sm-0 col-md-1 col-lg-2 col-xl-3">
       </div>
     </div>
 
 
-  <div class="row singleblogtwo">
-      <%= @post.body.html_safe %>
-  </div>
+  <div class="row ">
+      <div class="col-xs-0 col-sm-0 col-md-1 col-lg-2 col-xl-3">
+     </div>
+      <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8 col-xl-6">
+        <div class=singleblogtwo>
+      <p>  <%= @post.body.html_safe %> </p>
+        </div>
+      </div>
+    <div class="col-xs-0 col-sm-0 col-md-1 col-lg-2 col-xl-3">
+    </div>
+ </div>
 <!-- <div class="col-md-10 offset-md-2 col-lg-8 offset-lg-4> -->
  <!--<div class="row"> -->
 <!--  -->
