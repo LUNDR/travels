@@ -28,12 +28,12 @@
 
 <nav class="navbar navbar-light bg-faded">
   <div class='container'>
-    <a class='navbar-brand  col-md-12 col-lg-8 ' href='/'>
+    <a class='navbar-brand  col-md-8 col-lg-8 ' href='/'>
     <h5>   <%=image_tag('world.png', size:'40x40' ) %> Bootstraps & Backpacks </h5>
-    
+
           </a>
 
-    <ul class="nav navbar-nav pull-sm-right ">
+    <ul class="nav navbar-nav pull-sm-right hidden-xs-down ">
       <li class="nav-item">
         <%= link_to 'Blog', root_path, class: "nav-link #{yield(:blog_active)}" %>
       </li>
