@@ -1,6 +1,7 @@
 .posts.index {
 margin-top: 30px;
 padding: 20px;
+margin-left: 20%;
   .pagination{
     text-align:center;
     width: 100%;
@@ -80,7 +81,9 @@ padding: 20px;
   margin-left: 0%;
   margin-right:0%;
   text-align: justify;
-  font-family: 'Lora', serif !important;
+  p span{
+    font-family: 'Lora', serif !important;
+  }
 }
 
 .image{
