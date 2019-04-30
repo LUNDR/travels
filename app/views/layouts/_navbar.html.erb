@@ -9,9 +9,7 @@
         <li class="list-group-item">
           <%= link_to 'About', about_path, class: "nav-link #{yield(:about_active)}" %>
         </li>
-        <li class="list-group-item">
-          <%= link_to 'Contact', contact_path, class: "nav-link #{yield(:contact_active)}" %>
-        </li>
+
         <% if author_signed_in? %>
           <li class="list-group-item">
             <%= link_to 'My posts', authors_posts_path, class: "nav-link #{yield(:author)}" %>
@@ -61,9 +59,7 @@
       <li class="nav-item">
         <%= link_to 'About', about_path, class: "nav-link #{yield(:about_active)}" %>
       </li>
-      <li class="nav-item">
-        <%= link_to 'Contact ', contact_path, class: "nav-link #{yield(:contact_active)}" %>
-      </li>
+
       <% if author_signed_in? %>
        <li class="nav-item dropdown author-nav">
          <a class="nav-link dropdown-toggle <%= yield(:author) %>" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

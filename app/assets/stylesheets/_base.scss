@@ -33,9 +33,9 @@ h4{
     font-family: 'Lora', serif;
     color:black;
     font-style: normal;
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     font-weight: bold;
-    text-align:center;
+    text-align:left;
 
 
 }
@@ -134,4 +134,13 @@ footer {
   .container{
     width: 100%;
   }
+}
+
+.fa.fa-instagram {
+  font-size: 25px;
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
 }
