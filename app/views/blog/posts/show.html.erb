@@ -29,7 +29,8 @@
       <div class="col-xs-12 col-sm-12 col-md-10 col-lg-8 col-xl-6">
         <div class=singleblogtwo>
       <p>  <%= @post.body.html_safe %> </p>
-      <p> <%= social_share_button_tag(@post.title) %>
+      <p> 
+        <%= social_share_button_tag('', :url => post_path(@post), desc: @post.title) %>
         </p>
         </div>
       </div>
