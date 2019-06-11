@@ -10,4 +10,4 @@ The site:
 -  is deployed on heroku
 -  I am also using an Amazon S3 repository to store photos used on the blog.
 
-# travels
+The repository is called travels as I couldn't decide what to call the blog when I started.
