@@ -1,25 +1,13 @@
 # README
+May 2019
+This is the code for my blog, which can be found here:
+https://atfirsthand.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The site:
+-  was built with Ruby on Rails 5.2.3; 
+-  has a postgreSQL database
+-  uses bootstrap 4.0.0.alpha3.
+-  is deployed on heroku
+-  I am also using an Amazon S3 repository to store photos used on the blog.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # travels
